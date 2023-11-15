@@ -1,4 +1,4 @@
-# 🏕️ 도심 속 캠핑
+# 🏕️ 캠핑온탑 campingOnTop
 <img src="rooftopCamping.png"  style="zoom:76%;" align="center"/>
 
 
@@ -6,7 +6,7 @@
 <br>
 <br>
 
-# 🖥️ [PLAYDATA] 한화시스템 BEYOND SW캠프 / team MTM
+# 🖥️ [PLAYDATA] 한화시스템 BEYOND SW캠프 <br> team MTM
 ## 팀원
 ### 임태우 길민석 이준국 한경훈 장대현
 
@@ -21,13 +21,13 @@
 <br>
 <br>
 
-# ✒️ 프로젝트 소개
+# ✒️ 프로젝트 배경
 
 <br>
 <br>
 <br>
 
-# 🎯 프로젝트 설명
+# 🎯 프로젝트 소개
 
 <br>
 <br>
