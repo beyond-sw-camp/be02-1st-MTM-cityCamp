@@ -33,6 +33,9 @@ private하게, 교통 정체도 피하고 싶은 바쁜 현대인들이 <br>
 밤에 루프탑에서 야경을 보며 조용히 힐링할 수 있는 기회를 제공한다.
 
 <br>
+
+[상세 보고서](https://tessssssssy.notion.site/Project1-DB-REPORT-81f90c97cc1647a5b654c0903f8cb3c6?pvs=4)
+<br>
 <br>
 
 # ✒️ 프로젝트 배경
