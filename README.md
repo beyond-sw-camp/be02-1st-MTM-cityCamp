@@ -12,15 +12,7 @@
 <br>
 
 ### [Cluster 서버 시연 영상]
-[primary mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/a105c500-b1af-4444-9cc4-d950abdc1a98)
-
-
-[status mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/be604f72-5fc1-4b86-a7ce-3d641d4733f9)
-
-
-[changePrimary mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/4c45023b-f21f-43b1-98a6-c2149893c836)
-
-
+[ClusterVideo](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/6f2fccec-7a6e-4ef3-8501-19ec6cb29423)
 
 <br>
 <br>
