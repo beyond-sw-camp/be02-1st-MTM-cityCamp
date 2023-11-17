@@ -88,15 +88,12 @@ private하게 사용할 수 있고 차량 정체도 피할 수 있는 바쁜 현
 
 <br>
 
-- **cluster Architecture**
-<img src="src/img/describe.PNG.png"/>
+<img src="src/img/status.PNG.png"/>
 
 <br>
 
-- **cluster Architecture**
-  <img src="src/img/readWrite4446.png"/>
+<img src="src/img/readWrite4446.png"/>
 
 <br>
 
-- **cluster Architecture**
-  <img src="src/img/read4447.png"/>
+<img src="src/img/read4447.png"/>
