@@ -11,17 +11,23 @@
 
 <br>
 
-### [시연영상]
-<br>
+### [Cluster 서버 시연 영상]
+[primary mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/a105c500-b1af-4444-9cc4-d950abdc1a98)
 
-### [DB 설계 회고]
+
+[status mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/be604f72-5fc1-4b86-a7ce-3d641d4733f9)
+
+
+[changePrimary mp4](https://github.com/beyond-sw-camp/be02-1st-MTM-cityCamp/assets/105422037/4c45023b-f21f-43b1-98a6-c2149893c836)
+
+
 
 <br>
 <br>
 <br>
 
 # 🎯 프로젝트 소개
-‘캠핑온탑’은 일상에서 벗어나고 싶지만 멀리 가기 힘든 사람들이 도심 속에서
+‘**캠핑온탑**’은 일상에서 벗어나고 싶지만 멀리 가기 힘든 사람들이 도심 속에서
 
 캠핑을 즐길 수 있도록 여러 루프탑 등의 장소들을 중개 및 제공하는 서비스이다.
 
@@ -33,64 +39,69 @@ private하게, 교통 정체도 피하고 싶은 바쁜 현대인들이 <br>
 밤에 루프탑에서 야경을 보며 조용히 힐링할 수 있는 기회를 제공한다.
 
 <br>
-
-[상세 보고서](https://tessssssssy.notion.site/Project1-DB-REPORT-81f90c97cc1647a5b654c0903f8cb3c6?pvs=4)
 <br>
 <br>
 
 # ✒️ 프로젝트 배경
 일상에서 벗어나고 싶지만 멀리 가기 힘든 사람들을 위해
 
-"도심 속 캠핑"이라는 주제로 프로젝트가 시작되었다.
+“**도심 속 캠핑**” 이라는 주제로 프로젝트가 시작되었다. <br> <br>
+
+
+그리고 공실인 원룸, 상가 등을 가지고 있는 사람들이 장기, 단기 임대를 주기 어렵고
+
+모텔, 파티룸 등에는 가기 부담스럽고 멀리 가기 힘든 사람들을 위한 중개 플랫폼이다.
 
 <br>
-공실인 원룸, 상가 등을 보유한 사람들이 장기, 단기 임대를 주기 어려운 상황,
 
-모텔, 파티룸 등에는 가기에 부담스럽고, 또 멀리 가기 힘든 사람들의 상황 등에 적합한 중개 플랫폼이다.
+***“사전 준비가 필요 없는 도심 캠핑”***
+  - 서울 근교의 캠핑장이라도 그곳까지 방문해 캠핑을 하기 위해선
+    많은 준비가 필요하다.
+  - 장비 렌탈 서비스를 제공해 캠퍼들의 사전 준비의 번거로움을 덜 수 있다.
+
+<br>
+
+private하게 사용할 수 있고 차량 정체도 피할 수 있는 바쁜 현대인이
+
+밤에 루프탑에서 야경을 보며 조용히 힐링할 수 있는 기회를 제공한다.
 
 
+<br>
 <br>
 <br>
 
 # 🔍 프로젝트 시나리오 (요구사항 분석)
-- 유저
-  - 회원가입
-    - 캠핑온탑 계정 회원가입
-    - 소셜 계정 회원가입
-  - 로그인
-  - 로그아웃
-  - 회원탈퇴
+[상세 보고서 링크](https://tessssssssy.notion.site/Project1-DB-REPORT-81f90c97cc1647a5b654c0903f8cb3c6?pvs=4)
+
+
+# ⚒️ 논리 설계
+- **ERD**
+<img src="src/img/campingOnTopPaymentERD.png"/>
 
 <br>
 
-- 판매자
-  - 정보 추가
-    - 사업자 등록증
-    - 임차인-임대인 단기 임대 동의 증명 서류
-
-<br>
-
-- 캠핑장소
-  - 후기 게시판 (리뷰)
-  - QnA
-  - 좋아요 기능
-  - 북마크(찜) 목록
-  - 실제 이용 내역
-  - (필터링) 검색
-  - 게시물 등록
-  - 게시물 수정
-  - 게시물 삭제
-
-<br>
-
-- 캠핑용품
-  - (필터링) 검색
-  - 장바구니(찜) 목록
-  - 실제 이용 내역
-
+- **Relation Diagram**
+  <img src="src/img/campingOnTopPaymentTableRelation.png"/>
 
 <br>
 <br>
+<br>
 
-# ⚒️ System Architecture
+# ⚒️ 물리 설계
+- **cluster Architecture**
+<img src="src/img/clusterArchitecture.png"/>
 
+<br>
+
+- **cluster Architecture**
+<img src="src/img/describe.PNG.png"/>
+
+<br>
+
+- **cluster Architecture**
+  <img src="src/img/readWrite4446.png"/>
+
+<br>
+
+- **cluster Architecture**
+  <img src="src/img/read4447.png"/>
